@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "pixi.js": "^8.2.2"
+  }
 }
