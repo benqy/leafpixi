@@ -13,6 +13,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@leafpixi/common": "workspace:^",
     "@types/leaflet": "^1.9.12",
     "leaflet": "^1.9.4",
     "vue": "^3.4.29",
