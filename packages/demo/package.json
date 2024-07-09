@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
@@ -16,6 +16,7 @@
     "@leafpixi/common": "workspace:^",
     "@types/leaflet": "^1.9.12",
     "leaflet": "^1.9.4",
+    "maplibre-gl": "^4.5.0",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
   },
