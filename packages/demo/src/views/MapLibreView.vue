@@ -101,7 +101,7 @@ const initMap = () => {
       sources: {
         'raster-tiles': {
           type: 'raster',
-          tiles: ['https://xxxxxx/{z}/{y}_{x}.png'],
+          tiles: ['https://ue.17173cdn.com/a/terra/tiles/yysls/3000/{z}/{y}_{x}.png'],
           bounds: [
             -1.4,
             0, // Southwest coordinates
@@ -195,7 +195,7 @@ onMounted(() => {
     const image = await map.loadImage('https://pixijs.com/assets/bunny.png')
     map.addImage('cat', image.data)
     const features: any = []
-    for (let i = 0; i < 7000; i++) {
+    for (let i = 0; i < 27000; i++) {
       const lng = Math.random() * -1.4
       const lat = Math.random() * 1.4
       features.push({
