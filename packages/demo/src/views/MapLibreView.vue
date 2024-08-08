@@ -210,6 +210,7 @@ onMounted(() => {
       })
     
     }
+    
     map.addSource('point', {
       type: 'geojson',
       data: {
